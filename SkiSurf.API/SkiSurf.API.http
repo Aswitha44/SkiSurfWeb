@@ -1,0 +1,6 @@
+@SkiSurf.API_HostAddress = http://localhost:5164
+
+GET {{SkiSurf.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
