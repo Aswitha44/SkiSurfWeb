@@ -12,8 +12,8 @@ using SkiSurf.Infrastructure.Data;
 namespace SkiSurf.Infrastructure.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20240716214252_OrderEntityAdded")]
-    partial class OrderEntityAdded
+    [Migration("20240716233330_AddedOrderEntity")]
+    partial class AddedOrderEntity
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

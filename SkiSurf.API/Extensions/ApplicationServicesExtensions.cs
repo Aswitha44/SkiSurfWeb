@@ -16,6 +16,7 @@ namespace SkiSurf.API.Extensions
 
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IBasketRepository, BasketRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IOrderService, OrderService>();
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
