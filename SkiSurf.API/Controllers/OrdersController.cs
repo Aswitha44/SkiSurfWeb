@@ -6,7 +6,7 @@ using SkiSurf.API.Errors;
 using SkiSurf.API.Extensions;
 using SkiSurf.Core.Entities.OrderAggregate;
 using SkiSurf.Core.Interfaces;
-using StackExchange.Redis;
+
 
 namespace SkiSurf.API.Controllers
 {
